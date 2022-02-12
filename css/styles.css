@@ -1,0 +1,196 @@
+:root {
+  --primary-font-family: "Roboto", sans-serif;
+  --primary-text-color-theme-dark: #2196f3;
+  --primary-text-color-theme-light: #212121;
+  --secondary-text-color-theme-dark: #ffffff;
+  --secondary-text-color-theme-light: #757575;
+}
+body {
+  font-family: "Roboto", sans-serif, "Raleway", sans-serif;
+  color: #212121;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.logo {
+  letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  color: #000000;
+}
+.logo-part {
+  color: var(--primary-text-color-theme-dark);
+}
+.nav-list-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: inherit;
+}
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: var(--primary-text-color-theme-dark);
+}
+.contact-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-text-color-theme-light);
+}
+.contact-item:hover,
+.contact-item:focus {
+  color: var(--primary-text-color-theme-dark);
+}
+.main-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /* color: var(--secondary-text-color-theme-dark); */
+}
+.section-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.modal-button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--secondary-text-color-theme-dark);
+  background-color: var(--primary-text-color-theme-dark);
+  border: none;
+  border-radius: 4px;
+}
+
+.modal-button:hover,
+.modal-button:focus {
+  background-color: #188ce8;
+  color: var(--secondary-text-color-theme-dark);
+}
+
+.list-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.list-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color-theme-light);
+}
+.employee {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.job-position {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color-theme-light);
+}
+.portfolio {
+  color: var(--secondary-text-color-theme-dark);
+}
+.project-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+}
+.project-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-text-color-theme-light);
+}
+.portfolio-button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: inherit;
+  background-color: #f5f4fa;
+  border: none;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--primary-text-color-theme-dark);
+  color: var(--secondary-text-color-theme-dark);
+}
+.location {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  /* color: var(--secondary-text-color-theme-dark); */
+}
