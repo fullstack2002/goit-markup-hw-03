@@ -74,7 +74,6 @@ address {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  /* identical to box height */
   color: #000000;
 }
 .logo-part {
@@ -82,7 +81,6 @@ address {
 }
 .logo-footer {
   color: var(--secondary-text-color-theme-dark);
-  /* font-family: "Raleway", sans-serif; */
 }
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
@@ -116,20 +114,14 @@ address {
   color: var(--primary-text-color-theme-dark);
 }
 .main-title {
-  /* display: block; */
   width: 696px;
-  /* height: 120px; */
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  /* or 136% */
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-  /* padding-left: 452px; */
-  /* padding-right: 452px; */
-  /* padding-top: 200px; */
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -150,7 +142,6 @@ address {
   min-width: 200px;
   height: 50px;
   padding: 10px 32px;
-  /* margin-top: 30px; */
   margin-left: auto;
   margin-right: auto;
   font-family: inherit;
@@ -158,12 +149,7 @@ address {
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
-  /* identical to box height, or 187% */
-
-  /* display: flex; */
-  /* align-items: center; */
   letter-spacing: 0.06em;
-  /* justify-content: space-around; */
 
   color: var(--secondary-text-color-theme-dark);
   background-color: var(--primary-text-color-theme-dark);
@@ -187,8 +173,6 @@ address {
   flex-wrap: nowrap;
   margin-left: -30px;
   margin-top: -30px;
-  /* padding-top: 94px; */
-  /* padding-bottom: 94px; */
 }
 .description-card {
   flex-basis: calc((100%-120px) / 4);
@@ -210,8 +194,6 @@ address {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
-
   letter-spacing: 0.03em;
 
   color: var(--secondary-text-color-theme-light);
@@ -240,8 +222,6 @@ address {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
@@ -260,8 +240,6 @@ address {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
-  /* identical to box height */
-
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -275,7 +253,6 @@ address {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
-  /* padding-bottom: 94px; */
 }
 .project-card {
   flex-basis: calc((100%-120px) / 4);
@@ -283,31 +260,24 @@ address {
   margin-left: 30px;
 }
 .project-card-wrapper {
-  /* padding-left: 24px; */
   border: 1px solid #eeeeee;
   box-sizing: border-box;
   padding: 20px 24px;
 }
 .project-name {
-  /* padding-top: 20px; */
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
-  /* identical to box height, or 200% */
-
   letter-spacing: 0.06em;
   text-align: left;
   margin-bottom: 4px;
 }
 .project-description {
-  /* padding-bottom: 20px; */
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.88;
-  /* identical to box height, or 187% */
-
   letter-spacing: 0.03em;
 
   color: var(--secondary-text-color-theme-light);
@@ -319,11 +289,8 @@ address {
   justify-content: center;
   margin-left: -8px;
   margin-top: -8px;
-  /* padding-top: 94px; */
-  /* padding-bottom: 34px; */
 }
 .button-card {
-  /* flex-basis: calc((100%-40px) / 5); */
   align-items: center;
   margin-left: 4px;
   margin-right: 4px;
@@ -335,8 +302,6 @@ address {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  /* identical to box height, or 162% */
-
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -355,20 +320,15 @@ address {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
-
   letter-spacing: 0.03em;
 
   color: var(--secondary-text-color-theme-dark);
 }
 .footer-container {
-  /* display: flex; */
   background-color: #2f303a;
   width: 100%;
   padding-top: 60px;
   padding-bottom: 60px;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
 }
 .contact-item-footer {
   margin-top: 9px;
